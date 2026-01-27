@@ -24,6 +24,7 @@ SQL
 	수정 : ALTER DATABASE / ALTER TABLE / ALTER USER
 	삭제 : DROP DATABASE/ DROP TABLE / DROP USER
 	이름 변경 : RENAME TBALE / RENAME USER
+	테이블 초기화 : TRUNCATE
 
 조작어 : DML Data manipulation Language
 	데이터 테이블에 자료 관리용
