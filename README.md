@@ -1,12 +1,7 @@
 # Database26
 데이터베이스학습용mysql
 
-MYSQL 설치 진행
-
-mysql
-
-
-
+대소문자 구분 안씀
 
 ```
 행(ROW) 가로
