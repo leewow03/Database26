@@ -28,7 +28,7 @@ class MemberService:
             with conn.cursor() as cursor:
                 # 3. sql이라는 설명서(변수)를 먼저 만든다
                 sql = "SELECT * FROM members WHERE uid = %s AND password = %s"
-                cursor.execute(sql, (uid, pw)) # 4. 설명서 안에 input 받은걸 넣은다
+                cursor.execute(sql, (uid, pw)) # 4. 설명서 안에 input 받은걸 넣은다 / (sql, (uid, pw)) = (설명서,(재료))
                 row = cursor.fetchone() #5. 변수 row = cursor이라는 통역사가 하나를 가져오기 시도
 
                 if row:
