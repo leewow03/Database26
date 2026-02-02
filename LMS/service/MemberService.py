@@ -32,7 +32,7 @@ class MemberService:
                 row = cursor.fetchone() #5. 변수 row = cursor이라는 통역사가 하나를 가져오기 시도
 
                 if row:
-                    member = Member.from_db(row)
+                    member = Member.from_db(row) #가져온 id가  = row , row가 멤버 DB안에 있으면 member로 됨
 
                     if not member.active:
                         print("비활성화된 계정입니다. 관리자에게 문의하세요.")
